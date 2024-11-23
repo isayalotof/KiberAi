@@ -4,7 +4,7 @@ from aiogram.utils.keyboard import InlineKeyboardBuilder
 
 main = ReplyKeyboardMarkup(
     keyboard=[
-        [KeyboardButton(text='Работа с текстом'), KeyboardButton(text='Генерация изображений')]
+        [KeyboardButton(text='Общение 💬'), KeyboardButton(text='Генерация изображений 🖼️')]
     ],
     resize_keyboard=True
 )
